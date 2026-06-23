@@ -4,64 +4,28 @@ This report contains only findings manually verified against both the call recor
 
 ## Executive summary
 
-- Final calls reviewed: **ADD NUMBER (minimum 10)**
-- Confirmed product bugs: **ADD NUMBER**
-- High severity: **ADD NUMBER**
-- Medium severity: **ADD NUMBER**
-- Low severity: **ADD NUMBER**
-- Non-product observations: **ADD NUMBER**
+- Final calls reviewed: 11
+- Confirmed product bugs: 0
+- High severity: 0
+- Medium severity: 0
+- Low severity: 0
+- Non-product observations: 0
 
-## Confirmed findings
+# Confirmed findings
 
-### BUG-01 - ADD SHORT TITLE
+No confirmed Pretty Good AI product bugs were identified in the 11 selected calls.
 
-- **Severity:** High / Medium / Low
-- **Scenario:** SCN-XX - Scenario name
-- **Call:** `CALL-ID`
-- **Evidence:** `transcript-CALL-ID.txt` at `MM:SS`; confirm in `recording-CALL-ID.mp3`
-- **Patient request:** Add the exact request in a short paraphrase.
-- **Actual behavior:** Describe exactly what the office agent did.
-- **Why it matters:** Explain the user, safety, accuracy, or workflow impact.
-- **Expected behavior:** Describe the correct response or action.
-- **Reproduction steps:**
-  1. Run `python run_calls.py --scenario SCN-XX`.
-  2. Allow the patient scenario to reach the relevant turn.
-  3. Observe the office agent's response.
-- **Verification note:** State that the recording confirms the behavior and that it is not merely a transcript/ASR error.
+Several candidate issues were investigated, but they were excluded because they originated from the local patient simulator, reused caller identification, telephony timing, speech-recognition transcription, or unsupported automated analysis. No issue was counted as a product bug unless it was clearly attributable to the office agent and verified in both the transcript and recording.
 
----
+# Quality observations
 
-### BUG-02 - ADD SHORT TITLE
+No separate conversational-quality observations are included in the final count.
 
-- **Severity:** High / Medium / Low
-- **Scenario:** SCN-XX - Scenario name
-- **Call:** `CALL-ID`
-- **Evidence:** `transcript-CALL-ID.txt` at `MM:SS`; confirm in `recording-CALL-ID.mp3`
-- **Patient request:**
-- **Actual behavior:**
-- **Why it matters:**
-- **Expected behavior:**
-- **Reproduction steps:**
-- **Verification note:**
+Pauses, repeated verification, and silence-recovery behavior were reviewed during manual validation. However, the available evidence did not support classifying these behaviors as consistent product-quality defects rather than normal call latency, telephony behavior, or scenario-specific verification.
 
-## Quality observations
+#  Excluded findings
 
-Use this section for issues that reduce conversational quality but are not clear functional bugs, such as excessive pauses, repeated verification, awkward wording, or poor recovery from silence.
 
-### OBS-01 - ADD TITLE
+Several candidate findings were reviewed but excluded from the confirmed product-bug count. Medication-name inconsistencies that appeared only in ASR transcripts were not included unless the recording clearly confirmed that the office agent actually said the wrong medication. Identity or profile mismatches were also excluded because the same originating phone number was reused across multiple synthetic patient identities, which made those cases a limitation of the test setup rather than a confirmed privacy defect.
 
-- **Scenario / Call:**
-- **Evidence:**
-- **Observation:**
-- **Impact:**
-- **Suggested improvement:**
-
-## Excluded findings
-
-Record false positives here to demonstrate careful analysis.
-
-| Candidate finding | Why excluded |
-|---|---|
-| Example: medication name appears incorrect in ASR transcript | Excluded unless the recording confirms the agent actually spoke the wrong medication name. |
-| Example: profile mismatch under a reused caller ID | Excluded when caused by the test harness using one number for multiple synthetic identities. |
-| Example: patient repeated or ended early | Classified as a caller-simulator defect, not a PGAI product bug. |
+Other excluded issues originated from the local patient simulator rather than the Pretty Good AI office agent. These included repeating the phone number instead of confirming information, answering intake questions with unrelated details, switching into the receptionist role, and ending calls prematurely because of an incorrect `[END_CALL]` marker or local turn-limit behavior. Incomplete calls caused by silence detection, webhook timing, or telephony behavior were treated as integration issues. Malformed Ollama JSON, unsupported automatic findings, and metadata remaining in an `ending` state were also excluded because they belonged to the local analysis and finalization workflow rather than the product being evaluated.
