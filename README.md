@@ -3,10 +3,9 @@
 An automated Python voice bot built for the Pretty Good AI AI Engineering Challenge. The system calls the official assessment line, roleplays realistic patients, records and transcribes both sides of each conversation, and produces structured QA findings for manual review.
 
 ## Submission links
+- Public GitHub repository: https://github.com/ananya177/pgai-voice-bot
+- Product walkthrough video and AI debugging video :https://www.loom.com/share/82a2c9ba128545a79078d3338fe87070
 
-- Public GitHub repository: **ADD LINK**
-- Product walkthrough video (maximum 5 minutes): **ADD LOOM LINK**
-- AI debugging video (5 minutes): **ADD VIDEO LINK**
 - Single originating phone number used for every assessment call: **+14067170529**
 
 ## What the project does
