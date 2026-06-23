@@ -4,9 +4,9 @@ An automated Python voice bot built for the Pretty Good AI AI Engineering Challe
 
 ## Submission links
 
-- Public GitHub repository: **ADD LINK**
-- Product walkthrough video (maximum 5 minutes): **ADD LOOM LINK**
-- AI debugging video (5 minutes): **ADD VIDEO LINK**
+- Public GitHub repository: https://github.com/ananya177/pgai-voice-bot
+- Product walkthrough video and AI debugging video : https://www.loom.com/share/82a2c9ba128545a79078d3338fe87070
+
 - Single originating phone number used for every assessment call: **+14067170529**
 
 ## What the project does
