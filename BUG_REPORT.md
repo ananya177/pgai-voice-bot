@@ -25,7 +25,20 @@ Pauses, repeated verification, and silence-recovery behavior were reviewed durin
 
 #  Excluded findings
 
+EXC-01 — Medication-name inconsistency in ASR output:
+Medication-name variations appearing only in automatically generated transcripts were excluded unless the corresponding recording clearly confirmed that the office agent spoke or confirmed the wrong medication.
 
-Several candidate findings were reviewed but excluded from the confirmed product-bug count. Medication-name inconsistencies that appeared only in ASR transcripts were not included unless the recording clearly confirmed that the office agent actually said the wrong medication. Identity or profile mismatches were also excluded because the same originating phone number was reused across multiple synthetic patient identities, which made those cases a limitation of the test setup rather than a confirmed privacy defect.
+EXC-02 — Profile mismatch caused by reused caller ID:
+Identity and profile mismatches were excluded because the same originating phone number was reused for multiple synthetic patient identities. These cases were treated as limitations of the test setup rather than confirmed privacy defects.
 
-Other excluded issues originated from the local patient simulator rather than the Pretty Good AI office agent. These included repeating the phone number instead of confirming information, answering intake questions with unrelated details, switching into the receptionist role, and ending calls prematurely because of an incorrect `[END_CALL]` marker or local turn-limit behavior. Incomplete calls caused by silence detection, webhook timing, or telephony behavior were treated as integration issues. Malformed Ollama JSON, unsupported automatic findings, and metadata remaining in an `ending` state were also excluded because they belonged to the local analysis and finalization workflow rather than the product being evaluated.
+EXC-03 — Incorrect or repeated patient responses:
+Cases where the patient repeated a phone number, gave unrelated intake information, or switched into the receptionist role originated from the local patient simulator and were not classified as Pretty Good AI product bugs.
+
+EXC-04 — Premature call termination:
+Calls that ended because of an incorrect [END_CALL] marker, local turn limits, silence handling, or webhook timing were classified as caller-system or telephony integration issues.
+
+EXC-05 — Automated analysis issues:
+Malformed Ollama JSON and unsupported automatic findings were excluded because they originated from the local bug-analysis workflow and were not verified product defects.
+
+EXC-06 — Metadata finalization status:
+Calls whose metadata remained in an ending state were excluded as bugs after manual review confirmed that their recordings and transcripts were complete.
