@@ -1,0 +1,14 @@
+{
+  "call_id": "SCN-08-a353a03c",
+  "call_uuid": "90155ca5-42ac-4e35-b01e-80029ef9b7a1",
+  "scenario_id": "SCN-08",
+  "scenario_name": "Urgent symptom call",
+  "status": "completed",
+  "started_at": "2026-06-23T13:12:50.872349+00:00",
+  "ended_at": "2026-06-23T13:16:54.367863+00:00",
+  "recording_path": "calls/recording-SCN-08-a353a03c.mp3",
+  "recording_uuid": "489a4d49-6fa4-4551-b252-53bcab64904d",
+  "recording_size_bytes": 1883217,
+  "turn_count": 26,
+  "errors": []
+}

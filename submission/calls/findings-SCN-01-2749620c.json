@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Agent Fails to Check Availability",
+    "severity": "High",
+    "evidence": "01:51 - Agent offers 9:45 a.m. and 10:30 a.m. without confirming if those times are available.",
+    "problem": "The agent confirms the appointment without verifying that the requested time slot is actually open, potentially leading to scheduling conflicts or customer frustration.",
+    "expected_behavior": "Before offering a specific time, the agent should check for availability and confirm it with the patient.",
+    "source": "llm"
+  },
+  {
+    "title": "Agent Doesn't Confirm Date Explicitly",
+    "severity": "Medium",
+    "evidence": "02:24 - Agent states 'Tuesday June 30th at 9:45 a.m.' but the patient then repeats the date for confirmation.",
+    "problem": "While the agent provides the date, it's not explicitly confirmed by the agent, increasing the chance of misunderstanding or error.",
+    "expected_behavior": "The agent should proactively confirm the date with the patient to avoid ambiguity.",
+    "source": "llm"
+  }
+]

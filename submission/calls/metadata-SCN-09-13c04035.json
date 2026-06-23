@@ -1,0 +1,14 @@
+{
+  "call_id": "SCN-09-13c04035",
+  "call_uuid": "aee8e013-d67c-4299-a02f-d9b6263b272f",
+  "scenario_id": "SCN-09",
+  "scenario_name": "Interruption and barge-in test",
+  "status": "completed",
+  "started_at": "2026-06-23T13:17:34.115056+00:00",
+  "ended_at": "2026-06-23T13:22:28.971982+00:00",
+  "recording_path": "calls/recording-SCN-09-13c04035.mp3",
+  "recording_uuid": "130a45f8-24e8-4880-8626-3bdca64f0865",
+  "recording_size_bytes": 2301105,
+  "turn_count": 31,
+  "errors": []
+}

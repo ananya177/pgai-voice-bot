@@ -1,0 +1,25 @@
+Call ID: SCN-03-da181737
+========================================================================
+[00:00] PATIENT: I need to cancel my appointment tomorrow, something came up at work.
+[00:22] AGENT: thanks for calling Pivot Point Orthopedics part of pretty good AI am I speaking with Maria [ASR confidence: 0.98]
+[00:22] PATIENT: No, this is Sarah Williams.
+[00:34] AGENT: are you calling for yourself or for someone else today [ASR confidence: 1.00]
+[00:34] PATIENT: I’m calling for myself.
+[00:42] AGENT: please provide your date of birth [ASR confidence: 0.99]
+[00:46] PATIENT: It’s June 23rd, 2026.
+[00:58] AGENT: just to confirm is your date of birth June 23rd 2026 [ASR confidence: 0.98]
+[01:00] PATIENT: Yes, that’s correct
+[01:16] AGENT: it looks like the date of birth you provided is in the future can you double check and let me know your correct date of birth [ASR confidence: 0.98]
+[01:19] PATIENT: Oh my gosh, it’s June 23rd, 2025!
+[01:40] AGENT: could you please spell your first and last name for me just to make sure I have it right and can you confirm your date of birth is June 23rd 2025 [ASR confidence: 0.98]
+[01:40] PATIENT: It’s spelled S-A-R-A-H, W-I-L-L-I-A-M-S.
+[02:05] AGENT: would you like to use your phone number to look up your record if so please provide the number you have on file with us if you're not sure I can confirm your name and date of birth again which would you prefer [ASR confidence: 1.00]
+[02:05] PATIENT: Please use 406-717-0529.
+[02:20] AGENT: I have your phone number as 406 717 0529 [ASR confidence: 0.75]
+[02:20] PATIENT: Please use 406-717-0529.
+[02:34] AGENT: please confirm your date of birth for me [ASR confidence: 0.98]
+[02:41] PATIENT: Sarah Williams
+[02:59] AGENT: something's not right I can't verify your information I'll connect you to our patient support team for help please stay on the line [ASR confidence: 0.99]
+[03:02] PATIENT: That’s really strange, could you just cancel it?
+[03:12] AGENT: [No speech recognized]
+========================================================================

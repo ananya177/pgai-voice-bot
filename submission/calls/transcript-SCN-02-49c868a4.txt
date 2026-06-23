@@ -1,0 +1,26 @@
+Call ID: SCN-02-49c868a4
+========================================================================
+[00:00] PATIENT: Hi, this is Maria Johnson. I need to reschedule the appointment already on my account to the next available Friday morning.
+[00:20] AGENT: am I speaking with Maria [ASR confidence: 0.90]
+[00:20] PATIENT: Yes, this is Maria Johnson.
+[00:30] AGENT: please provide your date of birth [ASR confidence: 0.99]
+[00:30] PATIENT: My date of birth is March 15th, 1990.
+[00:45] AGENT: the birthday doesn't match our records but for demo purposes I'll accept it how can I help you today [ASR confidence: 0.98]
+[00:45] PATIENT: My date of birth is March 15th, 1990.
+[00:57] AGENT: thanks for letting me know how can I assist you today [ASR confidence: 0.99]
+[01:04] PATIENT: It’s spelled M-A-R-I-A, J-O-H-N-S-O-N.
+[01:17] AGENT: got it Maria Johnson what can I help you with today [ASR confidence: 0.98]
+[01:17] PATIENT: I need to reschedule my existing appointment. The next available Friday morning works for me.
+[01:50] AGENT: you have an appointment scheduled for Tuesday June 30th at 9:45 a.m. at Nashville 220 Athens Way with abrio is this the appointment you want to reschedule [ASR confidence: 0.90]
+[01:53] PATIENT: Yes, that’s correct.
+[02:18] AGENT: the next available Friday morning appointment is July 10th at 10:30 a.m. in Nashville with a bruker would you like to reschedule to this time or would you prefer July 17th or July 24th also at 10:30 a.m. [ASR confidence: 0.93]
+[02:18] PATIENT: That Friday time works for me. Please reschedule it.
+[02:31] AGENT: can you tell me the reason you need to reschedule your appointment [ASR confidence: 0.95]
+[02:34] PATIENT: I’m calling for myself.
+[02:53] AGENT: I understand but could you share the reason for rescheduling for example is it due to a schedule conflict illness or something else [ASR confidence: 0.99]
+[02:57] PATIENT: It’s just a better time for me.
+[03:19] AGENT: thank you to confirm you want to move your appointment to Friday July 10th at 10:30 a.m. in Nashville with April is that correct please remember to bring a photo ID and your insurance card [ASR confidence: 0.97]
+[03:19] PATIENT: That Friday time works for me. Please reschedule it.
+[03:43] AGENT: your appointment has been rescheduled to Friday July 10th at 10:30 a.m. in Nashville with aberger would you like me to send you a text message with these details [ASR confidence: 0.96]
+[03:43] PATIENT: No, that’s everything. Thank you. Goodbye.
+========================================================================

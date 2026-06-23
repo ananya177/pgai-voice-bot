@@ -1,0 +1,18 @@
+Call ID: SCN-01-2749620c
+========================================================================
+[00:00] PATIENT: Hi, I'd like to make an appointment. I'm a new patient.
+[00:16] AGENT: [No speech recognized]
+[00:16] PATIENT: Hello? I didn't hear a response. Could you say that again?
+[00:31] AGENT: would you like to create a demo patient profile I just need your first and last name [ASR confidence: 0.99]
+[00:38] PATIENT: My name is Maria Johnson.
+[00:58] AGENT: how may I help you today [ASR confidence: 0.97]
+[01:01] PATIENT: I’d like to schedule a new appointment for next Tuesday morning, please.
+[01:18] AGENT: is this appointment for a general office visit a follow-up a new patient consultation or something else [ASR confidence: 0.98]
+[01:20] PATIENT: It’s a new patient consultation.
+[01:51] AGENT: we have openings next Tuesday morning for a new patient consultation we do prefer to see a breaker or Doogie Howser or is either provider fine for example I can offer 9:45 a.m. with a breaker or 10:30 a.m. with either provider let me know your preference [ASR confidence: 0.88]
+[01:54] PATIENT: 9:45 a.m. would work perfectly, thank you.
+[02:24] AGENT: you're all set for a new patient consultation on Tuesday June 30th at 9:45 a.m. please bring your photo ID insurance card a list of your current medications and any Imaging discs you have is there anything else I can help you with [ASR confidence: 0.99]
+[02:28] PATIENT: Could you confirm that’s Tuesday, June 30th?
+[02:43] AGENT: yes your appointment is confirmed for Tuesday June 30th at 9:45 a.m. [ASR confidence: 0.99]
+[02:43] PATIENT: No, that's everything. Thank you. Goodbye.
+========================================================================

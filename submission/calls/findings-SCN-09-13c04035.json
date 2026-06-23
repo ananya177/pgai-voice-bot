@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Context Loss & Redundancy",
+    "severity": "High",
+    "evidence": "Timestamp: 02:21 - Agent repeats 'Karen Miller and your date of birth is June 23rd 1971 is that correct if so please spell your last name for me'",
+    "problem": "The agent fails to recognize previously established information, leading to redundant questioning and a disjointed conversation flow. This impacts user experience and efficiency.",
+    "expected_behavior": "The agent should maintain context of previous turns and avoid repeating confirmed details unless explicitly prompted by the patient.",
+    "source": "llm"
+  },
+  {
+    "title": "Unnecessary Escalation",
+    "severity": "Medium",
+    "evidence": "Timestamp: 04:44 - Agent abruptly transfers to support team due to inability to verify information.",
+    "problem": "The agent's inability to correctly process and confirm the patient\u2019s details resulted in an unnecessary escalation, potentially frustrating the user.  A more robust verification or clarification strategy should be employed before escalating.",
+    "expected_behavior": "Before escalating, the agent should attempt further clarification questions or utilize alternative verification methods (e.g., asking for a secondary piece of information) to resolve the issue.",
+    "source": "llm"
+  },
+  {
+    "title": "Poor Closing",
+    "severity": "Low",
+    "evidence": "Timestamp: 04:52 - Agent ends call with 'hello you've reached the pretty good AI test line goodbye'",
+    "problem": "The closing statement is unprofessional and doesn\u2019t provide a courteous farewell. It reflects poorly on the clinic.",
+    "expected_behavior": "The agent should use a standard, polite closing phrase (e.g., \u2018Thank you for calling, have a great day.\u2019)",
+    "source": "llm"
+  }
+]

@@ -1,0 +1,31 @@
+Call ID: SCN-06-72f2926e
+========================================================================
+[00:00] PATIENT: Hi, I want to become a patient but I need to check if you take my insurance first.
+[00:22] AGENT: private Point Orthopedics part of pretty good AI am I speaking with Maria [ASR confidence: 0.90]
+[00:22] PATIENT: No, this is Tom.
+[00:36] AGENT: thanks Tom are you calling for yourself today or for someone else [ASR confidence: 0.99]
+[00:36] PATIENT: I’m calling for myself.
+[00:48] AGENT: please tell me your date of birth [ASR confidence: 0.93]
+[00:51] PATIENT: It’s June 23rd, 2026.
+[01:05] AGENT: just to confirm is your date of birth June 23rd 2026 [ASR confidence: 0.98]
+[01:07] PATIENT: Yes, that’s correct.
+[01:30] AGENT: [No speech recognized]
+[01:30] PATIENT: Hello? I didn't hear a response. Could you say that again?
+[01:44] AGENT: I need your full name including your last name [ASR confidence: 0.99]
+[01:44] PATIENT: My name is Tom.
+[01:53] AGENT: could you please provide your last name as well [ASR confidence: 0.95]
+[01:56] PATIENT: It’s Miller.
+[02:13] AGENT: let me confirm your name is Tom Miller and your date of birth is June 23rd 2026 [ASR confidence: 0.98]
+[02:16] PATIENT: That’s correct.
+[02:43] AGENT: would you like to use your phone number to look up your record if so please tell me the number you have on file with us if you're not sure just confirm your full name and date of birth again and please spell your last name [ASR confidence: 1.00]
+[02:43] PATIENT: My name is Tom.
+[02:55] AGENT: thanks Tom could you please spell your last name and confirm your date of birth for me [ASR confidence: 0.99]
+[02:59] PATIENT: It’s M-I-L-L-E-R. And yes, June 23rd, 2026.
+[03:24] AGENT: I have your phone number as 4067170529 and your date of birth as June 23rd 2026 [ASR confidence: 0.87]
+[03:24] PATIENT: Please use 406-717-0529.
+[03:45] AGENT: please confirm your date of birth [ASR confidence: 0.99]
+[03:49] PATIENT: June 23rd, 2026
+[04:16] AGENT: connecting you to a representative please wait [ASR confidence: 0.99]
+[04:19] PATIENT: I have Aetna PPO.
+[04:28] AGENT: [No speech recognized]
+========================================================================

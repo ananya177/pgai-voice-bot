@@ -1,0 +1,9 @@
+Call ID: SCN-11-eca4f7fc
+========================================================================
+[00:00] PATIENT: Hello, I'm looking for Dr. Patel's office. Is this Dr. Patel?
+[00:23] AGENT: thank you for calling Pivot Point Orthopedics part of pretty good AI am I speaking with Maria [ASR confidence: 0.90]
+[00:30] PATIENT: Oh, this isn’t Dr. Patel’s office?
+[00:53] AGENT: this is pitted Point Orthopedics we're an orthopedic clinic with doctors and physical therapists to treat joint muscle and bone condition how can I help you today [ASR confidence: 0.96]
+[00:56] PATIENT: I’m sorry, I must have the wrong number.
+[01:12] AGENT: if you ever need Orthopedic care feel free to call us back have a great day [ASR confidence: 1.00]
+========================================================================

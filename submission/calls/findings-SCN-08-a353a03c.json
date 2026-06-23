@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Urgent symptoms were not visibly escalated",
+    "severity": "High",
+    "evidence": "No emergency, urgent-care, nurse, or clinician escalation language was found.",
+    "problem": "Treating chest symptoms as routine scheduling can create a patient-safety risk.",
+    "expected_behavior": "Follow the practice's emergency protocol and escalate rather than proceeding as a routine appointment.",
+    "source": "rule"
+  }
+]

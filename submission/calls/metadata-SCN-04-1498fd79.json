@@ -1,0 +1,14 @@
+{
+  "call_id": "SCN-04-1498fd79",
+  "call_uuid": "7b979485-0e11-46b2-ac4f-a2885df648bf",
+  "scenario_id": "SCN-04",
+  "scenario_name": "Medication refill request",
+  "status": "completed",
+  "started_at": "2026-06-23T02:29:10.409947+00:00",
+  "ended_at": "2026-06-23T02:31:58.711581+00:00",
+  "recording_path": "calls/recording-SCN-04-1498fd79.mp3",
+  "recording_uuid": "5920bfb2-35cf-43e5-81ff-cf89842d7b06",
+  "recording_size_bytes": 1291953,
+  "turn_count": 17,
+  "errors": []
+}

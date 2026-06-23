@@ -1,0 +1,24 @@
+Call ID: SCN-07-1c3da104
+========================================================================
+[00:00] PATIENT: Hi, I already have an appointment, but I'd like to move it to this Sunday at 10am. Is that possible?
+[00:22] AGENT: pretty good Ai and my speaking with Maria [ASR confidence: 0.92]
+[00:24] PATIENT: If Sunday is unavailable, what is the earliest Monday morning appointment?
+[00:42] AGENT: we're open Monday mornings that I'll need to confirm your details before checking the schedule my speaking with Maria [ASR confidence: 0.94]
+[00:43] PATIENT: Could you please tell me what information you need from me?
+[00:55] AGENT: I just need your date of birth please [ASR confidence: 0.97]
+[00:55] PATIENT: My date of birth is March 15th, 1990.
+[01:05] AGENT: [No speech recognized]
+[01:05] PATIENT: Hello? I didn't hear a response. Could you say that again?
+[01:30] AGENT: of course what is the main reason for your visit for example is this for a new patient consultation a follow-up a routine office visit or something urgent [ASR confidence: 0.99]
+[01:30] PATIENT: It’s ongoing knee pain.
+[01:46] AGENT: is this a routine office visit to discuss your ongoing knee pain or do you feel it's urgent and need to be seen as soon as possible [ASR confidence: 0.99]
+[01:46] PATIENT: It’s ongoing knee pain.
+[01:59] AGENT: would you like to schedule a general office visit to discuss your ongoing knee pain [ASR confidence: 0.98]
+[01:59] PATIENT: It’s a new patient consultation.
+[02:14] AGENT: thank you do you have a specific provider you'd like to see or are you open to the first available [ASR confidence: 1.00]
+[02:16] PATIENT: I’d prefer Dr. Ramirez if possible.
+[02:41] AGENT: it looks like you already have a new patient consultation scheduled if you'd like I can help you reschedule or cancel that appointment or I can connect you with a team member for further help what would you like to do [ASR confidence: 0.98]
+[02:41] PATIENT: It’s a new patient consultation.
+[03:01] AGENT: you already have a new patient consultation booked would you like to reschedule or cancel your current appointment or do you want to speak with someone from our team for more help [ASR confidence: 0.98]
+[03:01] PATIENT: Thank you for your help. I need to go now. Goodbye.
+========================================================================

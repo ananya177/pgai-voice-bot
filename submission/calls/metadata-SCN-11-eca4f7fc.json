@@ -1,0 +1,14 @@
+{
+  "call_id": "SCN-11-eca4f7fc",
+  "call_uuid": "d2738078-a296-4557-9124-73f92da68cfd",
+  "scenario_id": "SCN-11",
+  "scenario_name": "Wrong number / misdial scenario",
+  "status": "completed",
+  "started_at": "2026-06-22T22:04:59.939500+00:00",
+  "ended_at": "2026-06-22T22:06:12.970357+00:00",
+  "recording_path": "calls/recording-SCN-11-eca4f7fc.mp3",
+  "recording_uuid": "dbab3f49-9caa-4eeb-bcbf-66ed1b6e65d0",
+  "recording_size_bytes": 523857,
+  "turn_count": 7,
+  "errors": []
+}

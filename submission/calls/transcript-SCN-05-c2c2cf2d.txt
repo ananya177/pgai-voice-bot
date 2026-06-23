@@ -1,0 +1,16 @@
+Call ID: SCN-05-c2c2cf2d
+========================================================================
+[00:00] PATIENT: Quick question — what are your office hours? Are you open on weekends?
+[00:22] AGENT: Pivot Point Orthopedics part of pretty good AI am I speaking with Maria [ASR confidence: 0.96]
+[00:27] PATIENT: I’m Jennifer, not Maria. What time do you open and close Monday through Friday?
+[00:59] AGENT: thanks for letting me know Jennifer Pivot Point Orthopedics is open Monday Tuesday and Thursday from 9:00 a.m. to 4:00 p.m. Wednesday from 12:00 p.m. to 7:00 p.m. and Friday from 9:00 a.m. to 12:00 p.m. how can I help you today [ASR confidence: 0.90]
+[01:02] PATIENT: What about Saturday?
+[01:05] AGENT: [No speech recognized]
+[01:05] PATIENT: Hello? I didn't hear a response. Could you say that again?
+[01:22] AGENT: Pivot Point Orthopedics is closed on Saturdays let me know if you need anything else [ASR confidence: 0.96]
+[01:25] PATIENT: Is there an after-hours line for urgent issues?
+[01:51] AGENT: there is no dedicated after hours line for Urgent issues if you have a medical emergency please call 911 or go to the nearest emergency room for non-urgent matters you can leave a message or call back during business hours [ASR confidence: 0.99]
+[01:55] PATIENT: Thank you, that’s all I needed.
+[02:05] AGENT: you're welcome have a great day [ASR confidence: 1.00]
+[02:05] PATIENT: Goodbye.
+========================================================================

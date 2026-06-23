@@ -1,0 +1,14 @@
+{
+  "call_id": "SCN-01-2749620c",
+  "call_uuid": "f100462d-4918-4122-bdba-24adbba78075",
+  "scenario_id": "SCN-01",
+  "scenario_name": "Simple appointment scheduling",
+  "status": "completed",
+  "started_at": "2026-06-22T21:45:49.718001+00:00",
+  "ended_at": "2026-06-22T21:48:37.690315+00:00",
+  "recording_path": "calls/recording-SCN-01-2749620c.mp3",
+  "recording_uuid": "3c737199-e397-49ed-b310-142551b2e567",
+  "recording_size_bytes": 1277841,
+  "turn_count": 15,
+  "errors": []
+}

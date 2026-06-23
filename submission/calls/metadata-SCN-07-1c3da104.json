@@ -1,0 +1,14 @@
+{
+  "call_id": "SCN-07-1c3da104",
+  "call_uuid": "dc4d0c7d-efbd-4a9c-af0d-64a68d333521",
+  "scenario_id": "SCN-07",
+  "scenario_name": "Sunday reschedule edge case",
+  "status": "completed",
+  "started_at": "2026-06-22T23:37:12.807417+00:00",
+  "ended_at": "2026-06-22T23:40:18.833981+00:00",
+  "recording_path": "calls/recording-SCN-07-1c3da104.mp3",
+  "recording_uuid": "ba2e640b-4f37-477b-8bc1-84636e6e089d",
+  "recording_size_bytes": 1415217,
+  "turn_count": 21,
+  "errors": []
+}

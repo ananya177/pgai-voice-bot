@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Unnecessary Confirmation of Date of Birth",
+    "severity": "Medium",
+    "evidence": "[00:34] AGENT: can you please provide your date of birth and [00:52] AGENT: just to confirm with that March 1st 1990 or March 1990 with no specific day could you clarify the exact date",
+    "problem": "The agent unnecessarily repeated and clarified the date of birth, adding an extra step when it was already provided. This increases friction for the patient.",
+    "expected_behavior": "Once the date of birth is provided, the agent should move directly to confirming the appointment type without further clarification.",
+    "source": "llm"
+  },
+  {
+    "title": "Potential Confusion with Existing Appointment",
+    "severity": "Low",
+    "evidence": "[02:02] AGENT: you already have a general checkup appointment scheduled would you like to reschedule it to a different time or cancel your current appointment",
+    "problem": "The agent prematurely introduced the possibility of rescheduling/canceling an existing appointment before fully understanding the patient's needs. This could lead to confusion and unnecessary questioning.",
+    "expected_behavior": "Wait until the patient explicitly states they want to reschedule or cancel before mentioning their existing appointments.",
+    "source": "llm"
+  }
+]

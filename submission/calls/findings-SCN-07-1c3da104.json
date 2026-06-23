@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Incorrectly Reschedules to Sunday",
+    "severity": "High",
+    "evidence": "02:41 AGENT: it looks like you already have a new patient consultation scheduled if you'd like I can help you reschedule or cancel that appointment or I can connect you with a team member for further help what would you like to do",
+    "problem": "The agent failed to recognize the user\u2019s intent to reschedule to Sunday at 10am and instead focused on rescheduling the existing new patient consultation, potentially leading to an incorrect appointment being scheduled.",
+    "expected_behavior": "The agent should have confirmed that Sunday at 10am was unavailable due to clinic closure and offered a weekday alternative.",
+    "source": "llm"
+  }
+]

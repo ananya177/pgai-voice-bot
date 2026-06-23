@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Identity Verification Failure",
+    "severity": "High",
+    "evidence": "[00:30] PATIENT: My date of birth is March 15th, 1990. [00:45] AGENT: the birthday doesn't match our records but for demo purposes I'll accept it",
+    "problem": "The agent did not verify Maria\u2019s identity correctly and proceeded with the rescheduling despite a mismatch in her date of birth. This poses a security risk.",
+    "expected_behavior": "The agent should always attempt to verify patient identity before making changes to appointments, even if for demonstration purposes. A proper error handling flow should be triggered when data doesn't match.",
+    "source": "llm"
+  },
+  {
+    "title": "Incorrect Appointment Confirmation",
+    "severity": "Medium",
+    "evidence": "[01:50] AGENT: you have an appointment scheduled for Tuesday June 30th at 9:45 a.m. at Nashville 220 Athens Way with abrio is this the appointment you want to reschedule [ASR confidence: 0.90]",
+    "problem": "The agent initially presented an incorrect existing appointment date (June 30th) before offering alternative times, confusing the patient.",
+    "expected_behavior": "The agent should always confirm the correct existing appointment details with the patient before offering rescheduling options.",
+    "source": "llm"
+  },
+  {
+    "title": "Ambiguous Confirmation Name",
+    "severity": "Low",
+    "evidence": "[03:19] AGENT: your appointment has been rescheduled to Friday July 10th at 10:30 a.m. in Nashville with aberger would you like me to send you a text message with these details [ASR confidence: 0.96]",
+    "problem": "The agent confirms the appointment is scheduled with 'aberger' instead of Maria Johnson, which could lead to confusion and potential scheduling errors.",
+    "expected_behavior": "The agent should ensure accurate confirmation of all details, including patient name, before finalizing the rescheduling.",
+    "source": "llm"
+  }
+]

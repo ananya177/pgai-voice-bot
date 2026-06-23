@@ -1,0 +1,34 @@
+Call ID: SCN-09-13c04035
+========================================================================
+[00:00] PATIENT: Hi I need an appointment—actually wait, do you have anything today?
+[00:24] AGENT: may be recorded for quality and training purposes [ASR confidence: 1.00]
+[00:24] PATIENT: No wait, actually tomorrow is better
+[00:43] AGENT: just to confirm are you looking to schedule or reschedule an appointment for tomorrow and is this Maria I'm speaking with [ASR confidence: 0.97]
+[00:43] PATIENT: Sorry, I keep changing my mind — let me just say Wednesday
+[00:58] AGENT: no problem is this Maria calling to schedule an appointment for Wednesday [ASR confidence: 1.00]
+[00:58] PATIENT: Wednesday afternoon please
+[01:16] AGENT: can you please provide your date of birth [ASR confidence: 0.83]
+[01:19] PATIENT: It’s June twenty-third
+[01:33] AGENT: can you also tell me the year of your birth [ASR confidence: 0.98]
+[01:36] PATIENT: 1971
+[01:48] AGENT: I'll need your full name including your last name to continue [ASR confidence: 0.98]
+[01:48] PATIENT: My name is Karen.
+[01:57] AGENT: thanks Karen can you tell me your last named as well [ASR confidence: 0.99]
+[02:00] PATIENT: It’s Miller.
+[02:21] AGENT: just to try to have everything right your name is Karen Miller and your date of birth is June 23rd 1971 is that correct if so please spell your last name for me [ASR confidence: 0.96]
+[02:24] PATIENT: Miller
+[02:48] AGENT: would you like to use your phone number to look up your record if so please tell me the number you have on file with us if you're not sure just confirm your first and last name and date of birth for me by spelling them out [ASR confidence: 0.99]
+[02:48] PATIENT: My name is Karen.
+[03:03] AGENT: thanks Karen could you please spell your last name and confirm your date of birth for me [ASR confidence: 0.99]
+[03:07] PATIENT: It’s Miller, and it’s June twenty-third
+[03:22] AGENT: thank you could you please spell your last name Miller for me and confirm the year of your birth as well [ASR confidence: 0.98]
+[03:26] PATIENT: It’s 1971
+[03:50] AGENT: I have your phone number as 4067170529 and your date of birth as June 23rd 1971 is that correct [ASR confidence: 0.94]
+[03:50] PATIENT: Yes, that’s correct.
+[04:18] AGENT: please provide your date of birth including the month day and year [ASR confidence: 0.99]
+[04:21] PATIENT: June twenty-third
+[04:44] AGENT: something's not right I'm unable to verify your information I'll make sure our Clinic support team follows up with you please hold while I document this for our team [ASR confidence: 1.00]
+[04:44] PATIENT: Okay, thank you.
+[04:52] AGENT: hello you've reached the pretty good AI test line goodbye [ASR confidence: 0.99]
+[04:55] PATIENT: That’s correct
+========================================================================

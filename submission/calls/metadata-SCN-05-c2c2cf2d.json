@@ -1,0 +1,14 @@
+{
+  "call_id": "SCN-05-c2c2cf2d",
+  "call_uuid": "77a20b18-d206-4c82-9e0d-4bee8bc37bf7",
+  "scenario_id": "SCN-05",
+  "scenario_name": "Office hours inquiry",
+  "status": "completed",
+  "started_at": "2026-06-22T22:27:49.513261+00:00",
+  "ended_at": "2026-06-22T22:29:57.238730+00:00",
+  "recording_path": "calls/recording-SCN-05-c2c2cf2d.mp3",
+  "recording_uuid": "7a183f30-331f-40a3-87aa-f7043f52a00c",
+  "recording_size_bytes": 959313,
+  "turn_count": 13,
+  "errors": []
+}

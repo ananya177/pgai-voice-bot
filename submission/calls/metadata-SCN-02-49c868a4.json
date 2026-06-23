@@ -1,0 +1,14 @@
+{
+  "call_id": "SCN-02-49c868a4",
+  "call_uuid": "a4c73279-6b0b-46c9-849d-443a5527ae1e",
+  "scenario_id": "SCN-02",
+  "scenario_name": "Existing appointment reschedule",
+  "status": "completed",
+  "started_at": "2026-06-23T03:43:09.389001+00:00",
+  "ended_at": "2026-06-23T03:46:56.745600+00:00",
+  "recording_path": "calls/recording-SCN-02-49c868a4.mp3",
+  "recording_uuid": "50feea43-b161-4b4b-9edf-b31f7c6c948d",
+  "recording_size_bytes": 1760529,
+  "turn_count": 23,
+  "errors": []
+}

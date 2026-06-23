@@ -1,0 +1,14 @@
+{
+  "call_id": "SCN-06-72f2926e",
+  "call_uuid": "28b051c7-4ae3-4937-a502-7ccc704e6902",
+  "scenario_id": "SCN-06",
+  "scenario_name": "Insurance verification",
+  "status": "completed",
+  "started_at": "2026-06-23T13:08:02.127189+00:00",
+  "ended_at": "2026-06-23T13:12:28.897431+00:00",
+  "recording_path": "calls/recording-SCN-06-72f2926e.mp3",
+  "recording_uuid": "f9016599-aa9e-4036-b8a3-fe26ebc89f4d",
+  "recording_size_bytes": 2070993,
+  "turn_count": 28,
+  "errors": []
+}

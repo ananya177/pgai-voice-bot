@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Incorrect Initial Medication Identification",
+    "severity": "High",
+    "evidence": "[00:00] PATIENT: Yes hello, I need a refill on my blood pressure medication please.",
+    "problem": "The patient immediately states they need a refill for 'blood pressure medication,' failing to specify the exact drug. This leads to an unnecessary and potentially confusing data collection process.",
+    "expected_behavior": "Upon initial request regarding refills, the agent should proactively ask the patient which medication they require a refill for.",
+    "source": "llm"
+  },
+  {
+    "title": "Refill workflow omitted pharmacy information",
+    "severity": "Medium",
+    "evidence": "The transcript contains no request or confirmation of a pharmacy.",
+    "problem": "The refill request may be incomplete or routed incorrectly.",
+    "expected_behavior": "Ask for or confirm the patient's preferred pharmacy and explain the refill timeline.",
+    "source": "rule"
+  },
+  {
+    "title": "Unnecessary Repeated Confirmation",
+    "severity": "Medium",
+    "evidence": "[01:28] AGENT: could you please spell your first and last name for me [ASR confidence: 0.99]",
+    "problem": "The agent repeatedly confirms the patient's date of birth and name after initial verification, adding unnecessary steps to the process.",
+    "expected_behavior": "After confirming key identifiers (name and DOB), the agent should avoid redundant confirmation unless explicitly requested by the patient.",
+    "source": "llm"
+  },
+  {
+    "title": "Failure to Address Patient Confusion",
+    "severity": "Medium",
+    "evidence": "[02:47] PATIENT: Could you repeat that? I didn't quite catch it.",
+    "problem": "The patient expresses confusion regarding the agent\u2019s statement ('connecting you to a representative'), indicating potential issues with clarity or communication flow.",
+    "expected_behavior": "Upon receiving a clarification request, the agent should immediately rephrase the information clearly and concisely.",
+    "source": "llm"
+  }
+]

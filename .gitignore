@@ -1,0 +1,59 @@
+# Secrets
+.env
+private.key
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors and OS
+.DS_Store
+.vscode/
+.idea/
+
+# Generated temporary speech clips (keep final recordings/transcripts for submission)
+calls/tts-*.mp3
+calls/*.tmp
+
+# Secrets
+.env
+.env.*
+private.key
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Python and local environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Temporary and rejected calls
+calls/rejected-*/
+*.before-*
+*.backup
+
+# Local tunnels and generated audio
+audio/
+
+# Development backups and patches
+*.orig
+*.rej
+*.rej.orig
+*.patch
+
+# Raw call attempts; approved evidence is under submission/calls
+calls/

@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Agent may have failed to correct a wrong-office assumption",
+    "severity": "Medium",
+    "evidence": "Dr. Patel is discussed without clear correction that the caller reached a different office.",
+    "problem": "The caller may believe they reached a clinician or practice that is not represented by the agent.",
+    "expected_behavior": "Clearly identify the practice and correct the caller before offering further help.",
+    "source": "rule"
+  }
+]

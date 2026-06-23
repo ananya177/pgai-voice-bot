@@ -1,0 +1,14 @@
+{
+  "call_id": "SCN-03-da181737",
+  "call_uuid": "ebe5464a-d09d-486a-a0f7-95742a2d1f99",
+  "scenario_id": "SCN-03",
+  "scenario_name": "Appointment cancellation",
+  "status": "completed",
+  "started_at": "2026-06-23T03:52:21.658021+00:00",
+  "ended_at": "2026-06-23T03:55:32.999033+00:00",
+  "recording_path": "calls/recording-SCN-03-da181737.mp3",
+  "recording_uuid": "d6b779d1-bf0c-4f23-a225-15530da9dad0",
+  "recording_size_bytes": 1471089,
+  "turn_count": 22,
+  "errors": []
+}

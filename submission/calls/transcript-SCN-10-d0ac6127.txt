@@ -1,0 +1,22 @@
+Call ID: SCN-10-d0ac6127
+========================================================================
+[00:00] PATIENT: Um yeah hi so I was wondering if maybe I could like... get an appointment or something?
+[00:21] AGENT: edicts part of pretty good AI my speaking with Maria [ASR confidence: 0.90]
+[00:23] PATIENT: Like, for a general check-up, I guess.
+[00:34] AGENT: can you please provide your date of birth [ASR confidence: 1.00]
+[00:34] PATIENT: My date of birth is March 15th, 1990.
+[00:52] AGENT: just to confirm with that March 1st 1990 or March 1990 with no specific day could you clarify the exact date [ASR confidence: 0.98]
+[00:55] PATIENT: March fifteenth, I think.
+[01:10] AGENT: thank you so you'd like to schedule a general office visit for a routine checkup is that right [ASR confidence: 0.99]
+[01:12] PATIENT: Yes, I think so.
+[01:26] AGENT: do you have a specific provider you'd like to see or are you open to anyone available [ASR confidence: 0.99]
+[01:29] PATIENT: Whenever is okay, I guess.
+[01:42] AGENT: let me check for the next available appointments for a general checkup 1 moment [ASR confidence: 0.97]
+[01:45] PATIENT: Whenever is fine, I think.
+[02:02] AGENT: you already have a general checkup appointment scheduled would you like to reschedule it to a different time or cancel your current appointment [ASR confidence: 0.97]
+[02:05] PATIENT: No, I don’t want to change it.
+[02:19] AGENT: all right your current appointment will stay as it is if you need anything else just let me know [ASR confidence: 1.00]
+[02:23] PATIENT: Just... yes, that’s good.
+[02:33] AGENT: great you're all set have a good day [ASR confidence: 0.98]
+[02:36] PATIENT: Yes, that’s good.
+========================================================================

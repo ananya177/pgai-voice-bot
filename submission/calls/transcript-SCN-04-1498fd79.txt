@@ -1,0 +1,20 @@
+Call ID: SCN-04-1498fd79
+========================================================================
+[00:00] PATIENT: Yes hello, I need a refill on my blood pressure medication please.
+[00:21] AGENT: thanks for calling Pivot Point Orthopedics part of pretty good AI am I speaking with Maria [ASR confidence: 0.96]
+[00:21] PATIENT: No, this is Robert Garcia.
+[00:36] AGENT: thanks for letting me know Robert are you calling for yourself or on behalf of someone else today [ASR confidence: 0.99]
+[00:36] PATIENT: I’m calling for myself.
+[00:44] AGENT: please provide your date of birth [ASR confidence: 0.99]
+[00:44] PATIENT: My date of birth is June 3rd, 1957.
+[01:11] AGENT: just to confirm I have your name as Robert Garcia [ASR confidence: 0.97]
+[01:19] PATIENT: That’s correct.
+[01:28] AGENT: could you please spell your first and last name for me [ASR confidence: 0.99]
+[01:28] PATIENT: It’s spelled R-O-B-E-R-T, G-A-R-C-I-A.
+[01:53] AGENT: would you like to use your phone number to look up your record it's so please provide the number you have on file with us if you're not sure let me know and we can confirm your name and date of birth again [ASR confidence: 0.99]
+[01:53] PATIENT: Please use 406-717-0529.
+[02:18] AGENT: and your date of birth is June 3rd 1957 is that correct [ASR confidence: 0.98]
+[02:18] PATIENT: Yes, that’s correct.
+[02:44] AGENT: connecting you to a representative please wait [ASR confidence: 1.00]
+[02:47] PATIENT: Could you repeat that? I didn't quite catch it.
+========================================================================
